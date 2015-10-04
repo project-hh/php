@@ -1,11 +1,12 @@
 <?php
-$connect=mysql_connect("14.88", "login", "pass");
-if ( !$connect ) die ("Невозможно подключение к MySQL");
-$db="xyu";
-mysql_select_db ( $db ) or die ("Невозможно открыть $db");
-mysql_set_charset('utf8',$connect);
 
-....
+$query = "SELECT * FROM  `php` ORDER BY  `php`.`id` DESC LIMIT 0 , 1";
+$res = mysql_query( $query );
+while ( $item = mysql_fetch_array( $res ) )
+{ echo $item['id'];}
 
-mysql_close($connect);
+///
+
+
+
 ?>
