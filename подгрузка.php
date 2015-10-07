@@ -12,7 +12,7 @@ $(function() {
 		$("#imgLoad").show(); // Показываем прелоадер
 		
 		$.ajax({
-			url: "upd/upneok.php", // Обработчик
+			url: "upd.php", // Обработчик
 			type: "GET",       // Отправляем методом GET
 			data: {"num": num},
 			cache: false,			
@@ -39,4 +39,13 @@ echo '<div id="load">
 <img id="imgLoad" src="images/loaders/loader27.gif">
 </div>';
 
+
+//в upd.php 
+
+
+$num = $_GET['num'];
+if(empty($num)){$num=0;}
+ $qry = ("SELECT *  FROM z_z, z_s  where (z_z.id=z_s.id)  ORDER BY z_z.id DESC LIMIT $num, 50");
+
+s
 ?>
