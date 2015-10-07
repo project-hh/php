@@ -47,5 +47,9 @@ $num = $_GET['num'];
 if(empty($num)){$num=0;}
  $qry = ("SELECT *  FROM z_z, z_s  where (z_z.id=z_s.id)  ORDER BY z_z.id DESC LIMIT $num, 50");
 
-s
+$rs = mysql_query( $qry );
+
+
+ while ( $item = mysql_fetch_array( $rs ) )
+  { echo $ite['id'];}
 ?>
