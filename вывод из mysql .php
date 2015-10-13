@@ -7,6 +7,8 @@ while ( $item = mysql_fetch_array( $res ) )
 
 ///
 
+$info = mysql_fetch_assoc($res);
+echo $info['artist'];
 
 
 ?>
