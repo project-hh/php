@@ -1,11 +1,16 @@
 <?php
-$connect=mysql_connect("14.88", "login", "pass");
-if ( !$connect ) die ("Невозможно подключение к MySQL");
-$db="xyu";
-mysql_select_db ( $db ) or die ("Невозможно открыть $db");
-mysql_set_charset('utf8',$connect);
+$mysqli = new mysqli("192.14..88", "22", "3233", "2232h");
+if ($mysqli->connect_errno) {
+    echo "Не удалось подключиться к MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+    die();
+}
+$mysqli->set_charset("utf8");
 
+
+$result = $mysqli->query("SELECT * FROM  phc ORDER BY  id DESC LIMIT 0 , 1");
+$data =$result->fetch_assoc();
+$a = $data['id'];
 ....
 
-mysql_close($connect);
+$mysqli->close();
 ?>
