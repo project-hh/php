@@ -1,0 +1,9 @@
+<?
+
+html = '<img id="12" border="0" src="/images/image.jpg"
+         alt="Image" width="100" height="100" />';
+
+$doc = new DOMDocument();
+$doc->loadHTML($html);
+$xpath = new DOMXPath($doc);
+$src = $xpath->evaluate("string(//img/@src)"); # "/images/image.jpg"
