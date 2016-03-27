@@ -9,5 +9,14 @@
        $xfields[$key] = $value;
    }
 
+///////
+foreach($arr as $key => $val)
+{
+    $str .= "\n '".$key."'=>'".$val."',";
+}
+///////
+
+
+
 
 ?>
