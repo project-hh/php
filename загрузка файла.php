@@ -11,4 +11,12 @@ echo 'Файл успешно загружен';
 else
 echo 'Ошибка загрузки файла';
 }
+
+
+if (isset($_FILES['file']))
+{
+upload_file($_FILES['file']);
+}
+
+
 ?>
