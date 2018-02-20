@@ -1,7 +1,7 @@
-<?
+<?php
 
 
-   $string = "apikey|keeey||test|testtt";
+   $string = 'apikey|keeey||test|testtt';
    $xfields = array();
    $array2 = explode('||', $string);
    foreach($array2 as $str) {
