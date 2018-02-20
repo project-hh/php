@@ -10,9 +10,8 @@ $mysqli->set_charset("utf8");
 $result = $mysqli->query("SELECT * FROM  phc ORDER BY  id DESC LIMIT 0 , 1");
 $data = $result->fetch_assoc();
 $a = $data['id'];
-....
 
-<<<<<<< HEAD
+
 $data[1] = $result->fetch_all(MYSQLI_ASSOC);
 
 
@@ -20,7 +19,3 @@ $data = $result->fetch_all(MYSQLI_NUM);
 $count = $result->num_rows;
 
 $mysqli->close();
-=======
-$mysqli->close();
-?>
->>>>>>> parent of 92d6edc... Update соединение с mysql.php
