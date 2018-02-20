@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by hh.
+ * User: hakhagmon
+ * Date: 21.02.2018
+ * Time: 2:20
+ */
+
 
 // получаем название файла с URL c помощью шифрования md5:
 $cache_file = '/chache/' . md5($_SERVER['REQUEST_URI']) . '.tmp';
