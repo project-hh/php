@@ -42,7 +42,6 @@ echo '<div id="load">
 
 //в upd.php 
 
-
 $num = $_GET['num'];
 if(empty($num)){$num=0;}
  $qry = ("SELECT *  FROM z_z, z_s  where (z_z.id=z_s.id)  ORDER BY z_z.id DESC LIMIT $num, 50");
