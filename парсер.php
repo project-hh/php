@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by hh.
+ * User: hakhagmon
+ * Date: 21.02.2018
+ * Time: 2:20
+ */
+
 $album = file_get_contents(rtrim('https:///album/' . $i . '?sdfsdf'));
 $album = str_replace("\'", "/", $album);
 $obj = json_decode($album);

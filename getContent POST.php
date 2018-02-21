@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by hh.
+ * User: hakhagmon
+ * Date: 21.02.2018
+ * Time: 2:20
+ */
+
 // получаем данные для запроса
 list($boundary, $content) = getContent($postData, $files);
 // отправляем запрос

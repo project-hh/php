@@ -1,4 +1,12 @@
 <?php
+/**
+ * Created by hh.
+ * User: hakhagmon
+ * Date: 21.02.2018
+ * Time: 2:20
+ */
+
+
 
 $string = 'apikey|keeey||test|testtt';
 $xfields = array();

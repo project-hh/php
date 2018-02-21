@@ -1,4 +1,12 @@
 <?php
+/**
+ * Created by hh.
+ * User: hakhagmon
+ * Date: 21.02.2018
+ * Time: 2:20
+ */
+
+
 $config['smtp_username'] = 'noreplay@.ru';  //Смените на имя своего почтового ящика.
 $config['smtp_port'] = '25'; // Порт работы. Не меняйте, если не уверены.
 $config['smtp_host'] = '14.88.143.1488';  //сервер для отправки почты
