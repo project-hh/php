@@ -33,8 +33,6 @@ function orderstatus($type)
             $status = "Закрыт";
             $statusname = "inverse";
             break;
-
-
     }
 
     $status = "<span class='label label-$statusname'>$status</span>";
