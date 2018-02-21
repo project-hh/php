@@ -18,4 +18,4 @@ function selectfromreach($array, $select)
         $selected .= '<option value="' . $kek . '" ' . $wasselect . '>' . $item . '</option>';
     }
     return $selected;
-} 
+}
