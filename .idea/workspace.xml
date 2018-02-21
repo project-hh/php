@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3da13180-a2c6-448c-9786-b6a37d29f322" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/clear folder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/date rus.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/good phone cheker.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/guid generator.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/if selected.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/json cache.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/select from array.php" afterPath="$PROJECT_DIR$/select from array.php" />
-    </list>
+    <list default="true" id="3da13180-a2c6-448c-9786-b6a37d29f322" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,24 +93,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json cache.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="json cache.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json cache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mail form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mail form.php">
+      <file leaf-file-name="switch status.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/switch status.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#84#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,6 +152,7 @@
         <option value="$PROJECT_DIR$/if selected.php" />
         <option value="$PROJECT_DIR$/good phone cheker.php" />
         <option value="$PROJECT_DIR$/json cache.php" />
+        <option value="$PROJECT_DIR$/switch status.php" />
       </list>
     </option>
   </component>
@@ -255,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4297000" />
+    <option name="totallyTimeSpent" value="4679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="6" />
@@ -330,14 +320,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/antara.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array и именами.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -802,8 +784,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json cache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/switch status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
         </state>
       </provider>
