@@ -15,6 +15,9 @@ $a = $data['id'];
 $data[1] = $result->fetch_all(MYSQLI_ASSOC);
 
 
+$item = $result->fetch_array(MYSQLI_ASSOC);
+
+
 $data = $result->fetch_all(MYSQLI_NUM);
 $count = $result->num_rows; //кол-во
 
